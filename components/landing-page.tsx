@@ -305,9 +305,6 @@ export function LandingPage({ onDataLoaded }: LandingPageProps) {
             >
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
-            <Button variant="outline" className="hidden sm:inline-flex bg-transparent">
-              Sign In
-            </Button>
           </div>
         </div>
       </header>
